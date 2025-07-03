@@ -4,7 +4,9 @@ import Stripe from "stripe";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 const placeOrder = async (req, res) => {
-  const frontend_url = "http://localhost:5174";
+//   const frontend_url = "http://localhost:5174";
+  const frontend_url = "https://foodie-liard-phi.vercel.app";
+
   try {
     const newOrder = new orderModel({
       userId: req.userId, // ✅ taken from middleware, not req.body
