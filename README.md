@@ -222,21 +222,3 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 * Razorpay support for India
 
 ---
-
-## 🖼️ Screenshots (Optional)
-
-> Add UI preview, Stripe checkout page, Admin panel
-
----
-
-## 👨‍💻 Author
-
-**Mugil Anand**  
-GitHub: [@Mugilanandam](https://github.com/Mugilanandam)  
-Email: [mugil@example.com](mailto:mugil@example.com)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
